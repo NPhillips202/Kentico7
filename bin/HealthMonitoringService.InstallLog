@@ -1,0 +1,15 @@
+﻿Installing assembly 'E:\_www\client-qa.com\bin\HealthMonitoringService.exe'.
+Affected parameters are:
+   assemblypath = E:\_www\client-qa.com\bin\HealthMonitoringService.exe
+   logtoconsole = true
+   logfile = E:\_www\client-qa.com\bin\HealthMonitoringService.InstallLog
+   webpath = E:\_www\client-qa.com
+Installing service KenticoCMSHealthMonitor03822bd05e654b4d828e5111c7b23ff4...
+Service KenticoCMSHealthMonitor03822bd05e654b4d828e5111c7b23ff4 has been successfully installed.
+Creating EventLog source KenticoCMSHealthMonitor03822bd05e654b4d828e5111c7b23ff4 in log Application...
+Committing assembly 'E:\_www\client-qa.com\bin\HealthMonitoringService.exe'.
+Affected parameters are:
+   assemblypath = E:\_www\client-qa.com\bin\HealthMonitoringService.exe
+   logtoconsole = true
+   logfile = E:\_www\client-qa.com\bin\HealthMonitoringService.InstallLog
+   webpath = E:\_www\client-qa.com

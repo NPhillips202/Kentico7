@@ -1,0 +1,9 @@
+Creating '~/CMSSiteUtils/TestFiles/TestFolder201441116572/' - OK
+
+Creating '~/CMSSiteUtils/TestFiles/TestFolder201441116572/TestFile201441116572.txt' - OK
+
+Deleting '~/CMSSiteUtils/TestFiles/TestFolder201441116572/TestFile201441116572.txt' - OK
+
+Deleting '~/CMSSiteUtils/TestFiles/TestFolder201441116572/' - OK
+
+Modifying '~/CMSSiteUtils/TestFiles/TestModify.txt' - OK

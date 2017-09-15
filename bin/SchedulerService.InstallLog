@@ -1,0 +1,15 @@
+﻿Installing assembly 'E:\_www\client-qa.com\bin\SchedulerService.exe'.
+Affected parameters are:
+   assemblypath = E:\_www\client-qa.com\bin\SchedulerService.exe
+   logtoconsole = true
+   logfile = E:\_www\client-qa.com\bin\SchedulerService.InstallLog
+   webpath = E:\_www\client-qa.com
+Installing service KenticoCMSScheduler03822bd05e654b4d828e5111c7b23ff4...
+Service KenticoCMSScheduler03822bd05e654b4d828e5111c7b23ff4 has been successfully installed.
+Creating EventLog source KenticoCMSScheduler03822bd05e654b4d828e5111c7b23ff4 in log Application...
+Committing assembly 'E:\_www\client-qa.com\bin\SchedulerService.exe'.
+Affected parameters are:
+   assemblypath = E:\_www\client-qa.com\bin\SchedulerService.exe
+   logtoconsole = true
+   logfile = E:\_www\client-qa.com\bin\SchedulerService.InstallLog
+   webpath = E:\_www\client-qa.com

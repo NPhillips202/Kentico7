@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="board.messageedit.alreadyrated" xml:space="preserve">
+    <value>You've already rated.</value>
+  </data>
+  <data name="doctype.ecommerce.mappingwarning" xml:space="preserve">
+    <value>These settings provide backward compatibility after upgrading or importing from older versions.&lt;/br&gt; It is not necessary to use mapping in current version of CMS.</value>
+  </data>
+  <data name="DocumentType_List.DefaultPageClass" xml:space="preserve">
+    <value>The document type ({0}) cannot be deleted since it is default page menu item document type. Please change the default document type in the web.config file.</value>
+  </data>
+  <data name="general.actionfinished" xml:space="preserve">
+    <value>Action finished successfully</value>
+  </data>
+  <data name="general.copyfiles.precompiled" xml:space="preserve">
+    <value>Cannot copy physical files in precompiled website.</value>
+  </data>
+  <data name="macros.refreshsecurityparams" xml:space="preserve">
+    <value>Update macro signatures</value>
+  </data>
+  <data name="macros.refreshsecurityparams.currentsaltisconnectionstring" xml:space="preserve">
+    <value>(Current salt is a connection string, not shown for security reasons)</value>
+  </data>
+  <data name="macros.refreshsecurityparams.currentsaltiscustomvalue" xml:space="preserve">
+    <value>(Current salt is a custom value, not shown for security reasons)</value>
+  </data>
+  <data name="macros.refreshsecurityparams.description" xml:space="preserve">
+    <value>Whenever a user saves a macro expression, the system automatically adds a security signature containing the user name of the macro's author and a hash of the expression. The hash function also appends a &lt;strong&gt;salt&lt;/strong&gt; to the input. By default, the system uses the application's database connection string as the salt. 
+&lt;br /&gt;&lt;br /&gt;
+If your application's hash salt value changes, the security signatures of existing macro expressions become invalid. This may lead to problems with unresolved macros in certain scenarios:
+&lt;ul&gt;
+&lt;li&gt;
+The connection string of your application has changed, e.g. when moving to a different server or after setting a new database password.
+&lt;/li&gt;&lt;li&gt;
+You are using content staging to transfer data containing macros to another instance with a different connection string.
+&lt;/li&gt;&lt;li&gt;
+You have set a new custom salt via the &lt;strong&gt;CMSHashStringSalt&lt;/strong&gt; web.config key.
+&lt;/li&gt;&lt;/ul&gt;
+To re-sign all occurrences of macros in the system, enter the appropriate hash salt values and click &lt;strong&gt;Update macro signatures&lt;/strong&gt;.</value>
+  </data>
+  <data name="macros.refreshsecurityparams.newsalt" xml:space="preserve">
+    <value>New salt</value>
+  </data>
+  <data name="macros.refreshsecurityparams.newsaltempty" xml:space="preserve">
+    <value>Please enter the new salt.</value>
+  </data>
+  <data name="macros.refreshsecurityparams.oldsalt" xml:space="preserve">
+    <value>Old salt</value>
+  </data>
+  <data name="macros.refreshsecurityparams.oldsaltempty" xml:space="preserve">
+    <value>Please enter the old salt.</value>
+  </data>
+  <data name="macros.refreshsecurityparams.processing" xml:space="preserve">
+    <value>Processing '{0}' objects ...</value>
+  </data>
+  <data name="macros.refreshsecurityparams.refreshall" xml:space="preserve">
+    <value>Sign all macros</value>
+  </data>
+  <data name="macros.refreshsecurityparams.refreshalldescription" xml:space="preserve">
+    <value>(Re-signs all macros based on the current user)</value>
+  </data>
+  <data name="macros.refreshsecurityparams.refreshalltooltip" xml:space="preserve">
+    <value>If enabled, the macro re-signing process skips the signature integrity check, so you do not need to enter the old salt value. Check this option to re-sign all macros, including those that are unsigned or have invalid signatures.</value>
+  </data>
+  <data name="macros.refreshsecurityparams.usecurrentsalt" xml:space="preserve">
+    <value>Use the current salt</value>
+  </data>
+  <data name="mem.facebook.enterapikey" xml:space="preserve">
+    <value>Please enter an API key.</value>
+  </data>
+  <data name="mem.facebook.enterappsecret" xml:space="preserve">
+    <value>Please enter an application secret.</value>
+  </data>
+  <data name="mem.facebook.enterpageid" xml:space="preserve">
+    <value>Please enter a Facebook Page ID.</value>
+  </data>
+  <data name="objecttype.om_membershipsubscriber" xml:space="preserve">
+    <value>Contact-subscriber relation</value>
+  </data>
+  <data name="settingskey.screenlockinterval.description" xml:space="preserve">
+    <value>Time (in minutes) that has to pass before the screen is locked. This value has to be greater than 0 and lower than session timeout.</value>
+  </data>
+  <data name="settingskey.cmswebanalyticsusejavascriptlogging" xml:space="preserve">
+    <value>Log via JavaScript snippet</value>
+  </data>
+  <data name="settingskey.cmswebanalyticsusejavascriptlogging.description" xml:space="preserve">
+    <value>If enabled, the system will log majority of Web analytic statistics and certain On-line marketing Activities using JavaScript snippet. JavaScript logging filters out all browsers and devices that do not support JavaScript or have it disabled (typically non-human tools such as RSS readers, web crawlers, etc.). Switching to JavaScript logging does not affect performance of the website. Activities logged by JavaScript snippet include Page view, Landing page and External search.</value>
+  </data>
+  <data name="socialnetworking.lengthafterprocessing" xml:space="preserve">
+    <value>Length of post after processing: {0}</value>
+  </data>
+  <data name="macros.macrorule.emptystring" xml:space="preserve">
+    <value>(empty string)</value>
+  </data>
+  <data name="macros.macrorule.whitespaces" xml:space="preserve">
+    <value>(whitespaces)</value>
+  </data>
+  <data name="sf.noattributemappingavailable.tooltip" xml:space="preserve">
+    <value>There are currently no contact fields matching the data type of the target Salesforce field. You can add custom contact fields in Site Manager -&gt; Development -&gt; System tables.</value>
+  </data>
+  <data name="sf.noattributemappingavailabledefault.tooltip" xml:space="preserve">
+    <value>There are currently no contact fields matching the data type of the target Salesforce field. The field's default value will be used. You can add custom contact fields in Site Manager -&gt; Development -&gt; System tables.</value>
+  </data>
+  <data name="general.start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="importsite.subscribernotfound" xml:space="preserve">
+    <value>Subscriber {0} not found</value>
+  </data>
+  <data name="importsite.unsubscribing" xml:space="preserve">
+    <value>Unsubscribing {0}</value>
+  </data>
+  <data name="ImportSubscribers.deleting" xml:space="preserve">
+    <value>Deleting subscriber {0}</value>
+  </data>
+  <data name="ImportSubscribers.notfound" xml:space="preserve">
+    <value>Subscriber not found {0}</value>
+  </data>
+  <data name="newsletters.importingsubscribers" xml:space="preserve">
+    <value>Importing subscribers</value>
+  </data>
+  <data name="Subscriber_Import.cancelled" xml:space="preserve">
+    <value>Process was cancelled.</value>
+  </data>
+  <data name="subscriber_import.lblnote" xml:space="preserve">
+    <value>One subscriber per line in format: e-mail;first name;last name (first name and last name may be omitted)</value>
+  </data>
+  <data name="Subscriber_Import.notimported" xml:space="preserve">
+    <value>No subscribers were imported.</value>
+  </data>
+  <data name="general.errorocurred" xml:space="preserve">
+    <value>Exception occurred: {0}</value>
+  </data>
+  <data name="Subscriber_Import.nosubscribers" xml:space="preserve">
+    <value>Please enter at least one subscriber.</value>
+  </data>
+  <data name="datacom.automation.confirmlogout" xml:space="preserve">
+    <value>Do you really want to log out from Data.com?</value>
+  </data>
+  <data name="datacom.automation.confirmremoval" xml:space="preserve">
+    <value>Do you really want to remove the Data.com credentials from this step?</value>
+  </data>
+  <data name="datacom.automation.error3" xml:space="preserve">
+    <value>Step "{0}" in the "{1}" automation process does not have valid Data.com credentials. The step was unable to update the contact's information.</value>
+  </data>
+  <data name="datacom.automation.removecredentials" xml:space="preserve">
+    <value>Remove credentials ({0})</value>
+  </data>
+  <data name="datacom.automation.stepisusingcredentials" xml:space="preserve">
+    <value>This step uses the credentials of the &lt;b&gt;{0}&lt;/b&gt; account to connect to Data.com.</value>
+  </data>
+  <data name="datacom.automation.stepisusinginvalidcredentials" xml:space="preserve">
+    <value>The step's Data.com credentials are invalid. To make the step functional, remove the current credentials and provide new ones.</value>
+  </data>
+  <data name="datacom.datacomaccount" xml:space="preserve">
+    <value>Data.com account authentication</value>
+  </data>
+  <data name="datacom.invalidcredential" xml:space="preserve">
+    <value>Invalid e-mail address or password.</value>
+  </data>
+  <data name="datacom.invalidemail" xml:space="preserve">
+    <value>Please enter a valid e-mail address.</value>
+  </data>
+  <data name="datacom.invalidreferring" xml:space="preserve">
+    <value>Referring page is not valid.</value>
+  </data>
+  <data name="datacom.login.set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="datacom.logout" xml:space="preserve">
+    <value>Log out from Data.com ({0})</value>
+  </data>
+  <data name="datacom.needaccount" xml:space="preserve">
+    <value>Don't have a Data.com account?</value>
+  </data>
+  <data name="datacom.register" xml:space="preserve">
+    <value>Register here</value>
+  </data>
+  <data name="settingskey.cmsusepasswordpolicy.description" xml:space="preserve">
+    <value>If checked, each new password defined anywhere in the system will be checked against the specified password policy rules.</value>
+  </data>
+  <data name="Tools.FileImport.NotUnderRootPath" xml:space="preserve">
+    <value>This file is not located under the files import folder.</value>
+  </data>
+  <data name="translationservice.documentwasskipped" xml:space="preserve">
+    <value>The processing of document '{0}' was skipped. The document was already deleted from the system.</value>
+  </data>
+  <data name="customtable.notcustomtable" xml:space="preserve">
+    <value>The requested object is not a custom table.</value>
+  </data>
+  <data name="sm.googleplus.nopeoplefound" xml:space="preserve">
+    <value>No people were found for given userID: {0}</value>
+  </data>
+  <data name="friends.error_permission_createfriendsonbehalf" xml:space="preserve">
+    <value>You don't have permission to create requests on behalf of other users.</value>
+  </data>
+  <data name="user.error_doesnoteexist" xml:space="preserve">
+    <value>A user you have requested does not exist on this site.</value>
+  </data>
+  <data name="dialogs.filesystem.invalidfilepath" xml:space="preserve">
+    <value>Invalid file path.</value>
+  </data>
+  <data name="delete.rootwarning" xml:space="preserve">
+    <value>NOTE: Delete action on the root document will delete &lt;strong&gt;all sections and documents&lt;/strong&gt; of the web site. The whole site gets deleted if it is a single culture site or if you select the ‘Delete all culture versions of the specified document’ option. Otherwise, only the root document is deleted.&lt;br /&gt;&lt;br /&gt;You must check the following check box in order to proceed.&lt;br /&gt;&lt;br /&gt;Click &lt;strong&gt;No&lt;/strong&gt; to cancel this action.</value>
+  </data>
+  <data name="datacom.buycontact.purchasepoints" xml:space="preserve">
+    <value>Purchase points via your Data.com account</value>
+  </data>
+  <data name="documentation.webpartproperties.cachebyqueryparameters" xml:space="preserve">
+    <value>Semicolon separated list of query string parameter names that are a part of cache item name, e.g. rss;campaign. The web part creates a new cache item for each unique value of the specified parameters.</value>
+  </data>
+</root>

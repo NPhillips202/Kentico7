@@ -1,0 +1,17 @@
+﻿<cms_site version="7.0">
+  <NewDataSet>
+    <cms_site>
+      <SiteID>115</SiteID>
+      <SiteName>Hospitalityupgrade.com-0093-2016Redesign</SiteName>
+      <SiteDisplayName>hospitalityupgrade.com - 0093 - 2016 Redesign </SiteDisplayName>
+      <SiteDescription></SiteDescription>
+      <SiteStatus>RUNNING</SiteStatus>
+      <SiteDomainName>hospitalityupgrade.com</SiteDomainName>
+      <SiteDefaultVisitorCulture></SiteDefaultVisitorCulture>
+      <SiteGUID>b5ca5508-0ebd-40a6-8320-a2f19b3ba0b9</SiteGUID>
+      <SiteLastModified>2017-06-23T11:50:35.88-04:00</SiteLastModified>
+      <SiteIsOffline>false</SiteIsOffline>
+      <SiteOfflineMessage></SiteOfflineMessage>
+    </cms_site>
+  </NewDataSet>
+</cms_site>
